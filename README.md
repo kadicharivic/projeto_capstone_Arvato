@@ -25,3 +25,7 @@ cd projeto_capstone_Arvato/endpoint/api/trabalho
 pytohn3 app.py
 ```
 Then access: http://0.0.0.0:5000/swagger
+
+## Files
+- [Capstone Proposal](https://github.com/kadicharivic/projeto_capstone_Arvato/blob/master/proposal.pdf)
+- [Capstone Report](https://github.com/kadicharivic/projeto_capstone_Arvato/blob/master/report.pdf)

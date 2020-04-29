@@ -21,7 +21,7 @@ learning techniques will be applied to predict which people are most likely to o
   
 ## Start endpoint
 ``` sh
-cd projeto_capstone_Arvato/endpoint/api/trabalho
+cd projeto_capstone_Arvato/endpoint/trabalho
 pytohn3 app.py
 ```
 Then access: http://0.0.0.0:5000/swagger

@@ -1,0 +1,20 @@
+version: '3'
+
+services:
+
+  trabalho:
+    build:
+      context: trabalho
+      dockerfile: Dockerfile
+    command: /bin/sh ./run.sh
+    volumes:
+      - ./trabalho/:/code
+    ports:
+      - 9001:5000
+    networks:
+      - backend
+
+networks:
+  backend:
+    driver: bridge
+
